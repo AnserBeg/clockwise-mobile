@@ -41,8 +41,15 @@
 
     /* Interactive elements */
     --border: 220 13% 91%;
+    --border-foreground: 224 71% 4%;
     --input: 220 13% 91%;
+    --input-foreground: 224 71% 4%;
     --ring: 142 76% 36%;
+    --ring-foreground: 142 76% 26%;
+
+    /* Popover colors for dropdowns */
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
 
     /* Mobile-friendly spacing */
     --radius: 0.75rem;
@@ -109,8 +116,15 @@
     --destructive-foreground: 0 0% 100%;
 
     --border: 215 28% 17%;
+    --border-foreground: 210 40% 98%;
     --input: 215 28% 17%;
+    --input-foreground: 210 40% 98%;
     --ring: 142 76% 46%;
+    --ring-foreground: 142 76% 80%;
+
+    /* Popover colors for dropdowns */
+    --popover: 224 71% 6%;
+    --popover-foreground: 210 40% 98%;
 
     /* Dark mode gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));

@@ -23,7 +23,7 @@ export const LoginScreen: React.FC = () => {
       {/* App Header */}
       <div className="text-center mb-8">
         <div className="flex items-center justify-center mb-4">
-          <div className="bg-gradient-primary p-4 rounded-2xl shadow-mobile">
+          <div className="bg-gradient-to-r from-gradient-primary-from to-gradient-primary-to p-4 rounded-2xl shadow-mobile">
             <Clock className="h-8 w-8 text-primary-foreground" />
           </div>
         </div>
